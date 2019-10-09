@@ -36,7 +36,7 @@ namespace MarsFramework.Global
         [SetUp]
         public void Inititalize()
         {
-            GlobalDefinitions.ExcelLib.PopulateInCollection(@"C:\Users\Rammy\Desktop\marsframework\MarsFramework\ExcelData\TestDataShareSkill.xlsx", "SignIn");
+            GlobalDefinitions.ExcelLib.PopulateInCollection(@"C:\Users\Neelam\Desktop\Mars project\MarsFramework-master\MarsFramework\ExcelData\TestDataShareSkill.xlsx", "SignIn");
 
             // advisasble to read this documentation before proceeding http://extentreports.relevantcodes.com/net/
             switch (Browser)

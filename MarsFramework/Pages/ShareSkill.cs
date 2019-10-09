@@ -124,7 +124,7 @@ namespace MarsFramework.Pages
         internal void EnterShareSkill()
         {
             //Populate the Excel Sheet of ShareSkill
-            GlobalDefinitions.ExcelLib.PopulateInCollection(@"C:\Users\Rammy\Desktop\marsframework\MarsFramework\ExcelData\TestDataShareSkill.xlsx", "ShareSkill");
+            GlobalDefinitions.ExcelLib.PopulateInCollection(@"C:\Users\Neelam\Desktop\Mars project\MarsFramework-master\MarsFramework\ExcelData\TestDataShareSkill.xlsx", "ShareSkill");
             GlobalDefinitions.wait(30);
 
             //Click on ShareSkill button
@@ -281,7 +281,7 @@ namespace MarsFramework.Pages
 
         internal void EditShareSkill()
         {
-            GlobalDefinitions.ExcelLib.PopulateInCollection(@"C:\Users\Rammy\Desktop\marsframework\MarsFramework\ExcelData\TestDataShareSkill.xlsx", "ShareSkill");
+            GlobalDefinitions.ExcelLib.PopulateInCollection(@"C:\Users\Neelam\Desktop\Mars project\MarsFramework-master\MarsFramework\ExcelData\TestDataShareSkill.xlsx", "ShareSkill");
             GlobalDefinitions.wait(30);
 
             //Click on ShareSkill button

@@ -41,7 +41,7 @@ namespace MarsFramework.Pages
         internal void EditListings()
         {
             //Populate the Excel Sheet of Manage Listings
-            GlobalDefinitions.ExcelLib.PopulateInCollection(@"C:\Users\Rammy\Desktop\marsframework\MarsFramework\ExcelData\TestDataManageListings.xlsx", "ManageListings");
+            GlobalDefinitions.ExcelLib.PopulateInCollection(@"C:\Users\Neelam\Desktop\Mars project\MarsFramework-master\MarsFramework\ExcelData\TestDataManageListings.xlsx", "ManageListings");
 
             //Wait
             GlobalDefinitions.wait(10);
@@ -57,7 +57,7 @@ namespace MarsFramework.Pages
         internal void ViewandDeleteListings()
         {
             //Populate the Excel Sheet of Manage Listings
-            GlobalDefinitions.ExcelLib.PopulateInCollection(@"C:\Users\Rammy\Desktop\marsframework\MarsFramework\ExcelData\TestDataManageListings.xlsx", "ManageListings");
+            GlobalDefinitions.ExcelLib.PopulateInCollection(@"C:\Users\Neelam\Desktop\Mars project\MarsFramework-master\MarsFramework\ExcelData\TestDataManageListings.xlsx", "ManageListings");
 
             //Wait
             GlobalDefinitions.wait(10);

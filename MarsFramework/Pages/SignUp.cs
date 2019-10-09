@@ -48,7 +48,7 @@ namespace MarsFramework.Pages
         internal void register()
         {
             //Populate the excel data
-            GlobalDefinitions.ExcelLib.PopulateInCollection(@"C:\Users\Rammy\Desktop\marsframework\MarsFramework\ExcelData\TestDataShareSkill.xlsx", "SignUp");
+            GlobalDefinitions.ExcelLib.PopulateInCollection(@"C:\Users\Neelam\Desktop\Mars project\MarsFramework-master\MarsFramework\ExcelData\TestDataShareSkill.xlsx", "SignUp");
             //Click on Join button
             Join.Click();
 
